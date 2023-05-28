@@ -41,4 +41,5 @@ while numer<100:
 		denom+=1
 	numer+=1
 from fractions import Fraction
-print(Fraction(product))
+a=Fraction(product)
+print(a)
