@@ -34,12 +34,12 @@ while numer<100:
 	while denom<100:
 		if simple(numer,denom):
 			print("Yes")
+			print(product)
 			print(numer)
 			print(denom)
+			print(numer/denom)
 			print(" ")
-			product*=numer/denom	
+			product*=numer/denom
 		denom+=1
 	numer+=1
-from fractions import Fraction
-a=Fraction(product)
-print(a)
+print(product)
