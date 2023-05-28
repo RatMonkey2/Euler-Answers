@@ -40,4 +40,5 @@ while numer<100:
 			product*=numer/denom	
 		denom+=1
 	numer+=1
-print(Decimal('product').as_integer_ratio())
+from decimal import Decimal
+print((product).as_integer_ratio)
