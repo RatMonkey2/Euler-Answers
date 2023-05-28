@@ -40,4 +40,3 @@ while numer<100:
 			product*=numer/denom	
 		denom+=1
 	numer+=1
-print(product)
